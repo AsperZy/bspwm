@@ -1,0 +1,11 @@
+#! bin/zsh
+
+git clone https://github.com/ZLCube/KaliBspwm.git
+
+cd KaliBspwm
+
+chmod +x install.sh
+
+./install.sh
+
+
