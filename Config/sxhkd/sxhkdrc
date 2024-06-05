@@ -7,13 +7,13 @@ super + Return
 	/opt/kitty/bin/kitty
 
 # i3lock 
-shift + l
+super + l
 	/home/Asper/Documents/PROClient/PROClient.x86_64 &
 
 
 # program launcher
 super + b
-	~/.config/polybar/scripts/launcher &
+	~/.config/rofi/launchers/type-7/launcher.sh &
 
 # make sxhkd reload its configuration files:
 super + Escape
